@@ -129,7 +129,7 @@ an associated identifier that starts with the prefix <code>"PPM"</code>.
 To retrieve the performance metrics associated with one assessment of a
 polygenic score, you can use directly its identifier:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/ascentsoftware/quincunx" class="external-link">quincunx</a></span><span class="op">)</span></span>
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/ascentsoftware/quincunx/" class="external-link">quincunx</a></span><span class="op">)</span></span>
 <span></span>
 <span><span class="fu"><a href="../reference/get_performance_metrics.html">get_performance_metrics</a></span><span class="op">(</span>ppm_id <span class="op">=</span> <span class="st">'PPM000001'</span><span class="op">)</span></span>
 <span><span class="co">#&gt; An object of class "performance_metrics"</span></span>
@@ -403,6 +403,7 @@ a vector of identifiers (e.g. PGSes 42 thru 46):</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">ppm</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/get_performance_metrics.html">get_performance_metrics</a></span><span class="op">(</span>pgs_id <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/sprintf.html" class="external-link">sprintf</a></span><span class="op">(</span><span class="st">"PGS%06d"</span>, <span class="fl">42</span><span class="op">:</span><span class="fl">46</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="co">#&gt;  <span style="color: #00BB00;">■■■■■■■■■■■■■■■■■■■             </span>  60% |  ETA:  3s</span></span>
+<span><span class="co">#&gt;  <span style="color: #00BB00;">■■■■■■■■■■■■■■■■■■■■■■■■■       </span>  80% |  ETA:  2s</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/print.html" class="external-link">print</a></span><span class="op">(</span><span class="va">ppm</span><span class="op">@</span><span class="va">performance_metrics</span>, n <span class="op">=</span> <span class="cn">Inf</span><span class="op">)</span></span>
 <span><span class="co">#&gt; <span style="color: #949494;"># A tibble: 28 × 5</span></span></span>
 <span><span class="co">#&gt;    ppm_id    pgs_id    reported_trait                        covariates comments</span></span>
@@ -443,7 +444,7 @@ a vector of identifiers (e.g. PGSes 42 thru 46):</p>
 
 
     <footer><div class="pkgdown-footer-left">
-  <p>Developed by <a href="https://www.pattern.institute/team/rmagno/" class="external-link">Ramiro Magno</a>, <a href="http://iduarte.eu/" class="external-link">Isabel Duarte</a>, Ana-Teresa Maia, Rise Health, <a href="https://www.pattern.institute/" class="external-link"><img src="https://rmagno.eu/quincunx/reference/figures/pi-logotype-canonical-whole-v01.svg" height="24" alt="Pattern Institute logo"></a>, <a href="https://www.acuityanalytics.com" class="external-link"><img src="https://raw.githubusercontent.com/AscentSoftware/acuitydown/refs/heads/main/man/figures/Acuity_logo_Colour_RGB.svg" alt="Acuity Analytics" width="120" style="margin-bottom: 3px;"></a>.</p>
+  <p>Developed by <a href="https://www.pattern.institute/team/rmagno/" class="external-link">Ramiro Magno</a>, <a href="http://iduarte.eu/" class="external-link">Isabel Duarte</a>, Ana-Teresa Maia, Rise Health, <a href="https://www.pattern.institute/" class="external-link"><img src="https://ascentsoftware.github.io/quincunx/reference/figures/pi-logotype-canonical-whole-v01.svg" height="24" alt="Pattern Institute logo"></a>, <a href="https://www.acuityanalytics.com" class="external-link"><img src="https://raw.githubusercontent.com/AscentSoftware/acuitydown/refs/heads/main/man/figures/Acuity_logo_Colour_RGB.svg" alt="Acuity Analytics" width="120" style="margin-bottom: 3px;"></a>.</p>
 </div>
 
 <div class="pkgdown-footer-right">

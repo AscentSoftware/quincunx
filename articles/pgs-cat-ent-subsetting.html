@@ -119,7 +119,7 @@ objects, please take a look at <a href="https://tibble.tidyverse.org/reference/s
 tibbles</a>.</p>
 <p>Start by loading quincunx:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/ascentsoftware/quincunx" class="external-link">quincunx</a></span><span class="op">)</span></span></code></pre></div>
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/ascentsoftware/quincunx/" class="external-link">quincunx</a></span><span class="op">)</span></span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="subsetting-scores">Subsetting scores<a class="anchor" aria-label="anchor" href="#subsetting-scores"></a>
@@ -134,7 +134,7 @@ objects, say, the first 10 PGSs in the catalog:</p>
 <span><span class="va">my_scores</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/get_scores.html">get_scores</a></span><span class="op">(</span><span class="va">pgs_ids</span><span class="op">)</span></span>
 <span><span class="co">#&gt;  <span style="color: #00BB00;">■■■■■■■■■■                      </span>  30% |  ETA:  8s</span></span>
 <span><span class="co">#&gt;  <span style="color: #00BB00;">■■■■■■■■■■■■■■■■                </span>  50% |  ETA:  6s</span></span>
-<span><span class="co">#&gt;  <span style="color: #00BB00;">■■■■■■■■■■■■■■■■■■■■■■          </span>  70% |  ETA:  4s</span></span></code></pre></div>
+<span><span class="co">#&gt;  <span style="color: #00BB00;">■■■■■■■■■■■■■■■■■■■■■■■■■       </span>  80% |  ETA:  2s</span></span></code></pre></div>
 <p>The object <code>my_scores</code> is an S4 object of class
 <code>scores</code>, see <code><a href="../reference/scores-class.html">class?scores</a></code> for details. In
 quincunx, each S4 object contains at least one (the first) table where
@@ -472,7 +472,7 @@ with identifiers of the form: <code>"PPM000000"</code>. Example:</p>
 
 
     <footer><div class="pkgdown-footer-left">
-  <p>Developed by <a href="https://www.pattern.institute/team/rmagno/" class="external-link">Ramiro Magno</a>, <a href="http://iduarte.eu/" class="external-link">Isabel Duarte</a>, Ana-Teresa Maia, Rise Health, <a href="https://www.pattern.institute/" class="external-link"><img src="https://rmagno.eu/quincunx/reference/figures/pi-logotype-canonical-whole-v01.svg" height="24" alt="Pattern Institute logo"></a>, <a href="https://www.acuityanalytics.com" class="external-link"><img src="https://raw.githubusercontent.com/AscentSoftware/acuitydown/refs/heads/main/man/figures/Acuity_logo_Colour_RGB.svg" alt="Acuity Analytics" width="120" style="margin-bottom: 3px;"></a>.</p>
+  <p>Developed by <a href="https://www.pattern.institute/team/rmagno/" class="external-link">Ramiro Magno</a>, <a href="http://iduarte.eu/" class="external-link">Isabel Duarte</a>, Ana-Teresa Maia, Rise Health, <a href="https://www.pattern.institute/" class="external-link"><img src="https://ascentsoftware.github.io/quincunx/reference/figures/pi-logotype-canonical-whole-v01.svg" height="24" alt="Pattern Institute logo"></a>, <a href="https://www.acuityanalytics.com" class="external-link"><img src="https://raw.githubusercontent.com/AscentSoftware/acuitydown/refs/heads/main/man/figures/Acuity_logo_Colour_RGB.svg" alt="Acuity Analytics" width="120" style="margin-bottom: 3px;"></a>.</p>
 </div>
 
 <div class="pkgdown-footer-right">

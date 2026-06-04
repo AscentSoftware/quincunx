@@ -497,7 +497,7 @@ and *training*) are referred to as *development*, in contrast to the
 later testing phase of the polygenic scores, i.e., the *evaluation*
 phase (or stage).  
 If this sounds confusing check our
-[cheatsheet](https://github.com/ramiromagno/cheatsheets/blob/master/quincunx/quincunx_cheatsheet.pdf),
+[cheatsheet](https://github.com/ascentsoftware/cheatsheets/blob/master/quincunx/quincunx_cheatsheet.pdf),
 section *PGS Construction Process*, second page.
 
 ``` r
@@ -728,7 +728,6 @@ MONDO_0006512, or MONDO_0006513) with the function
 
 scores_bc <- get_scores(efo_id = unique(mavaddat2018_scores@traits[['efo_id']]))
 #>  ■■■■■■■■■■■                       33% |  ETA: 19s
-#>  ■■■■■■■■■■■■■■■■■■■■■             67% |  ETA:  6s
 quincunx::n(scores_bc)
 #> [1] 166
 ```
@@ -818,7 +817,7 @@ mavaddat2018_ppm <- get_performance_metrics(pgs_id = mavaddat2018_scores@scores$
 #>  ■■■■■■                            17% |  ETA:  2m
 #>  ■■■■■■■■■■■                       33% |  ETA:  1m
 #>  ■■■■■■■■■■■■■■■■                  50% |  ETA:  1m
-#>  ■■■■■■■■■■■■■■■■■■■■■             67% |  ETA: 26s
+#>  ■■■■■■■■■■■■■■■■■■■■■■■■■■        83% |  ETA: 12s
 ```
 
 The output is an S4 object with 9 tables:

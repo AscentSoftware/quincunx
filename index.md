@@ -1,7 +1,7 @@
 # quincunx
 
-The goal of [quincunx](https://github.com/ascentsoftware/quincunx) is to
-provide programmatic access to the [Polygenic Score (PGS)
+The goal of [quincunx](https://github.com/ascentsoftware/quincunx/) is
+to provide programmatic access to the [Polygenic Score (PGS)
 Catalog](https://www.pgscatalog.org/), an open resource for [polygenic
 scores](https://en.wikipedia.org/wiki/Polygenic_score) and associated
 metadata describing their development and respective assessment.
@@ -12,7 +12,7 @@ to get started.
 
 ## Installation
 
-Install [quincunx](https://github.com/ascentsoftware/quincunx) from
+Install [quincunx](https://github.com/ascentsoftware/quincunx/) from
 CRAN:
 
 ``` r
@@ -35,7 +35,7 @@ pak::pak("ascentsoftware/quincunx")
 
 ## Citing this work
 
-[quincunx](https://github.com/ascentsoftware/quincunx) was published in
+[quincunx](https://github.com/ascentsoftware/quincunx/) was published in
 Bioinformatics in 2021:
 <https://doi.org/10.1093/bioinformatics/btab522>.
 
@@ -82,7 +82,7 @@ studies and the papers associated with the PGS Catalog project:
 ## Terms of use
 
 Please note that if you use the data provided by the PGS Catalog either
-directly or via [quincunx](https://github.com/ascentsoftware/quincunx)
+directly or via [quincunx](https://github.com/ascentsoftware/quincunx/)
 you agree to abide to the [EMBL-EBI Terms of
 Use](https://www.ebi.ac.uk/about/terms-of-use/).
 
@@ -90,8 +90,8 @@ Use](https://www.ebi.ac.uk/about/terms-of-use/).
 
 Please note that the `{quincunx`} project is released with a
 [Contributor Code of
-Conduct](https://rmagno.eu/quincunx/CODE_OF_CONDUCT.html). By
-contributing to this project, you agree to abide by its terms.
+Conduct](https://ascentsoftware.github.io/quincunx/CODE_OF_CONDUCT.html).
+By contributing to this project, you agree to abide by its terms.
 
 ## Acknowledgements
 
@@ -99,14 +99,3 @@ This work would have not been possible without the precious feedback
 from the [PGS Catalog team](https://www.pgscatalog.org/), particularly
 [Samuel Lambert](https://www.ebi.ac.uk/about/people/samuel-lambert) and
 [Laurent Gil](https://www.sanger.ac.uk/person/gil-laurent/).
-
-## Package name and hex sticker
-
-The package name [quincunx](https://github.com/ascentsoftware/quincunx)
-is another name for [Galton
-Board](https://en.wikipedia.org/wiki/Bean_machine), that so nicely
-exemplifies the [Central Limit
-Theorem](https://en.wikipedia.org/wiki/Central_limit_theorem), which in
-turn is a key concept of genetics, namely, [Fisher’s infinitesimal
-model](https://doi.org/10.1016/j.tpb.2017.09.003)… which leads us to
-Polygenic Scores, the key concept of the PGS Catalog.

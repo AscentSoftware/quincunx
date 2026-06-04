@@ -41,7 +41,7 @@ e.g., the function
 provides the mapping of PGS identifiers (`pgs_id`) to PGP identifiers
 (`pgp_id`). You can find all available id-mapping functions under
 [Accession identifier
-mapping](https://rmagno.eu/quincunx/reference/index.html#accession-identifier-mapping).
+mapping](https://ascentsoftware.github.io/quincunx/reference/index.html#accession-identifier-mapping).
 
 ![id mapping](../reference/figures/id_mapping.svg)
 

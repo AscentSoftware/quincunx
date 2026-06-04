@@ -43,7 +43,7 @@ pgs_ids <- sprintf('PGS%06d', 1:10)
 my_scores <- get_scores(pgs_ids)
 #>  ■■■■■■■■■■                        30% |  ETA:  8s
 #>  ■■■■■■■■■■■■■■■■                  50% |  ETA:  6s
-#>  ■■■■■■■■■■■■■■■■■■■■■■            70% |  ETA:  4s
+#>  ■■■■■■■■■■■■■■■■■■■■■■■■■         80% |  ETA:  2s
 ```
 
 The object `my_scores` is an S4 object of class `scores`, see

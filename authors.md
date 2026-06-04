@@ -13,7 +13,7 @@
 - **Rise Health**. Copyright holder, funder.
 
 - **[![Pattern Institute
-  logo](https://rmagno.eu/quincunx/reference/figures/pi-logotype-canonical-whole-v01.svg)](https://www.pattern.institute/)**.
+  logo](https://ascentsoftware.github.io/quincunx/reference/figures/pi-logotype-canonical-whole-v01.svg)](https://www.pattern.institute/)**.
   Copyright holder, funder.
   [![ROR](https://raw.githubusercontent.com/ror-community/ror-logos/main/ror-icon-rgb.svg)](https://ror.org/04jrgd746)
 
