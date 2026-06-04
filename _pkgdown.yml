@@ -1,11 +1,11 @@
-url: https://rmagno.eu/quincunx
+url: https://ascentsoftware.github.io/quincunx/
 
 home:
   title: Access the PGS Catalog from R
   description: An R package to query, download and wrangle PGS Catalog data.
 
 template:
-  package: chic
+  package: acuitydown
   bootstrap: 5
   params:
     docsearch:
