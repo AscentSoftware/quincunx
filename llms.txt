@@ -1,0 +1,300 @@
+# quincunx
+
+The goal of [quincunx](https://github.com/ascentsoftware/quincunx) is to
+provide programmatic access to the [Polygenic Score (PGS)
+Catalog](https://www.pgscatalog.org/), an open resource for [polygenic
+scores](https://en.wikipedia.org/wiki/Polygenic_score) and associated
+metadata describing their development and respective assessment.
+
+Browse the online documentation at
+[ascentsoftware.github.io/quincunx](https://ascentsoftware.github.io/quincunx)
+to get started.
+
+## Installation
+
+Install [quincunx](https://github.com/ascentsoftware/quincunx) from
+CRAN:
+
+``` r
+
+# Install from CRAN
+install.packages("quincunx")
+```
+
+You can instead install the development version with:
+
+``` r
+
+# install.packages("pak")
+pak::pak("ascentsoftware/quincunx")
+```
+
+## Cheatsheet
+
+[![](https://raw.githubusercontent.com/ascentsoftware/cheatsheets/master/quincunx/quincunx_cheatsheet.png)](https://github.com/ascentsoftware/cheatsheets/blob/master/quincunx/quincunx_cheatsheet.pdf)
+
+## Citing this work
+
+[quincunx](https://github.com/ascentsoftware/quincunx) was published in
+Bioinformatics in 2021:
+<https://doi.org/10.1093/bioinformatics/btab522>.
+
+To generate a citation for this publication from within R:
+
+``` r
+
+citation('quincunx')
+#> To cite quincunx in publications use:
+#> 
+#>   Ramiro Magno, Isabel Duarte, Ana-Teresa Maia, quincunx: an R package
+#>   to query, download and wrangle PGS Catalog data, Bioinformatics,
+#>   btab522, 16 July 2021, Pages 1-3,
+#>   https://doi.org/10.1093/bioinformatics/btab522
+#> 
+#> A BibTeX entry for LaTeX users is
+#> 
+#>   @Article{,
+#>     title = {quincunx: an R package to query, download and wrangle PGS Catalog data},
+#>     author = {Ramiro Magno and Isabel Duarte and Ana-Teresa Maia},
+#>     journal = {Bioinformatics},
+#>     year = {2021},
+#>     volume = {38},
+#>     number = {1},
+#>     pages = {1--3},
+#>     url = {https://doi.org/10.1093/bioinformatics/btab522},
+#>   }
+```
+
+## Citing PGS Catalog publications
+
+Also, please do not forget to cite the authors behind the original
+studies and the papers associated with the PGS Catalog project:
+
+- Lambert, S.A., Gil, L., Jupp, S. et al. The Polygenic Score Catalog as
+  an open database for reproducibility and systematic evaluation. Nat
+  Genet 53, 420–425 (2021). doi:
+  [10.1038/s41588-021-00783-5](https://doi.org/10.1038/s41588-021-00783-5)
+- Wand, H., Lambert, S.A., Tamburro, C. et al. Improving reporting
+  standards for polygenic scores in risk prediction studies. Nature 591,
+  211–219 (2021). doi:
+  [10.1038/s41586-021-03243-6](https://doi.org/10.1038/s41586-021-03243-6)
+
+## Terms of use
+
+Please note that if you use the data provided by the PGS Catalog either
+directly or via [quincunx](https://github.com/ascentsoftware/quincunx)
+you agree to abide to the [EMBL-EBI Terms of
+Use](https://www.ebi.ac.uk/about/terms-of-use/).
+
+## Code of Conduct
+
+Please note that the `{quincunx`} project is released with a
+[Contributor Code of
+Conduct](https://rmagno.eu/quincunx/CODE_OF_CONDUCT.html). By
+contributing to this project, you agree to abide by its terms.
+
+## Acknowledgements
+
+This work would have not been possible without the precious feedback
+from the [PGS Catalog team](https://www.pgscatalog.org/), particularly
+[Samuel Lambert](https://www.ebi.ac.uk/about/people/samuel-lambert) and
+[Laurent Gil](https://www.sanger.ac.uk/person/gil-laurent/).
+
+## Package name and hex sticker
+
+The package name [quincunx](https://github.com/ascentsoftware/quincunx)
+is another name for [Galton
+Board](https://en.wikipedia.org/wiki/Bean_machine), that so nicely
+exemplifies the [Central Limit
+Theorem](https://en.wikipedia.org/wiki/Central_limit_theorem), which in
+turn is a key concept of genetics, namely, [Fisher’s infinitesimal
+model](https://doi.org/10.1016/j.tpb.2017.09.003)… which leads us to
+Polygenic Scores, the key concept of the PGS Catalog.
+
+# Package index
+
+## Get PGS Catalog Data
+
+Receive data from the PGS Catalog REST API.
+
+- [`get_scores()`](https://ascentsoftware.github.io/quincunx/reference/get_scores.md)
+  : Get PGS Catalog Scores
+- [`read_scoring_file()`](https://ascentsoftware.github.io/quincunx/reference/read_scoring_file.md)
+  : Read a polygenic scoring file
+- [`get_publications()`](https://ascentsoftware.github.io/quincunx/reference/get_publications.md)
+  : Get PGS Catalog Publications
+- [`get_performance_metrics()`](https://ascentsoftware.github.io/quincunx/reference/get_performance_metrics.md)
+  : Get PGS Catalog Performance Metrics
+- [`get_sample_sets()`](https://ascentsoftware.github.io/quincunx/reference/get_sample_sets.md)
+  : Get PGS Catalog Sample Sets
+- [`get_traits()`](https://ascentsoftware.github.io/quincunx/reference/get_traits.md)
+  : Get PGS Catalog Traits
+- [`get_cohorts()`](https://ascentsoftware.github.io/quincunx/reference/get_cohorts.md)
+  : Get PGS Catalog Cohorts
+- [`get_trait_categories()`](https://ascentsoftware.github.io/quincunx/reference/get_trait_categories.md)
+  : Get PGS Catalog Trait Categories
+- [`get_ancestry_categories()`](https://ascentsoftware.github.io/quincunx/reference/get_ancestry_categories.md)
+  : Get ancestry categories and classes
+- [`get_releases()`](https://ascentsoftware.github.io/quincunx/reference/get_releases.md)
+  : Get PGS Catalog Releases
+
+## PGS Catalog Entities
+
+S4 classes for scores, publications, performance_metrics, sample_sets
+and traits.
+
+- [`scores-class`](https://ascentsoftware.github.io/quincunx/reference/scores-class.md)
+  : An S4 class to represent a set of PGS Catalog Polygenic Scores
+- [`publications-class`](https://ascentsoftware.github.io/quincunx/reference/publications-class.md)
+  : An S4 class to represent a set of PGS Catalog Publications
+- [`performance_metrics-class`](https://ascentsoftware.github.io/quincunx/reference/performance_metrics-class.md)
+  : An S4 class to represent a set of PGS Catalog Performance Metrics
+- [`sample_sets-class`](https://ascentsoftware.github.io/quincunx/reference/sample_sets-class.md)
+  : An S4 class to represent a set of PGS Catalog Sample Sets
+- [`traits-class`](https://ascentsoftware.github.io/quincunx/reference/traits-class.md)
+  : An S4 class to represent a set of PGS Catalog Traits
+
+## Other Entities
+
+S4 classes for cohorts, trait_categories and releases.
+
+- [`cohorts-class`](https://ascentsoftware.github.io/quincunx/reference/cohorts-class.md)
+  : An S4 class to represent a set of cohorts
+- [`trait_categories-class`](https://ascentsoftware.github.io/quincunx/reference/trait_categories-class.md)
+  : An S4 class to represent a set of PGS Catalog Trait Categories
+- [`releases-class`](https://ascentsoftware.github.io/quincunx/reference/releases-class.md)
+  : An S4 class to represent a set of PGS Catalog Releases
+
+## Data Wrangling of PGS Catalog Entities
+
+S4 methods for combining and tallying scores, publications,
+performance_metrics, sample_set, traits, cohorts, trait_categories and
+releases.
+
+- [`n()`](https://ascentsoftware.github.io/quincunx/reference/n.md) :
+  Number of PGS Catalog entities
+- [`bind()`](https://ascentsoftware.github.io/quincunx/reference/bind.md)
+  : Bind PGS Catalog objects
+- [`union()`](https://ascentsoftware.github.io/quincunx/reference/setop.md)
+  [`intersect()`](https://ascentsoftware.github.io/quincunx/reference/setop.md)
+  [`setdiff()`](https://ascentsoftware.github.io/quincunx/reference/setop.md)
+  [`setequal()`](https://ascentsoftware.github.io/quincunx/reference/setop.md)
+  : Set operations on PGS Catalog objects
+
+## Accession identifier mapping
+
+Translate accession identifiers between scores, publications,
+performance_metrics, sample_set, traits and GWAS studies.
+
+- [`pgs_to_pgp()`](https://ascentsoftware.github.io/quincunx/reference/pgs_to_pgp.md)
+  : Map PGS identifiers to PGP identifiers
+- [`pgs_to_pss()`](https://ascentsoftware.github.io/quincunx/reference/pgs_to_pss.md)
+  : Map PGS identifiers to PSS identifiers
+- [`pgs_to_ppm()`](https://ascentsoftware.github.io/quincunx/reference/pgs_to_ppm.md)
+  : Map PGS identifiers to PPM identifiers
+- [`pgs_to_study()`](https://ascentsoftware.github.io/quincunx/reference/pgs_to_study.md)
+  : Map PGS identifiers to GWAS study identifiers
+- [`study_to_pgs()`](https://ascentsoftware.github.io/quincunx/reference/study_to_pgs.md)
+  : Map GWAS studies identifiers to PGS identifiers
+- [`pgp_to_pgs()`](https://ascentsoftware.github.io/quincunx/reference/pgp_to_pgs.md)
+  : Map PGP identifiers to PGS identifiers
+- [`pgp_to_pss()`](https://ascentsoftware.github.io/quincunx/reference/pgp_to_pss.md)
+  : Map PGP identifiers to PSS identifiers
+- [`pgp_to_ppm()`](https://ascentsoftware.github.io/quincunx/reference/pgp_to_ppm.md)
+  : Map PGP identifiers to PPM identifiers
+- [`pss_to_pgs()`](https://ascentsoftware.github.io/quincunx/reference/pss_to_pgs.md)
+  : Map PSS identifiers to PGS identifiers
+- [`pss_to_pgp()`](https://ascentsoftware.github.io/quincunx/reference/pss_to_pgp.md)
+  : Map PSS identifiers to PGP identifiers
+- [`pss_to_ppm()`](https://ascentsoftware.github.io/quincunx/reference/pss_to_ppm.md)
+  : Map PSS identifiers to PPM identifiers
+- [`ppm_to_pgs()`](https://ascentsoftware.github.io/quincunx/reference/ppm_to_pgs.md)
+  : Map PPM identifiers to PGS identifiers
+- [`ppm_to_pgp()`](https://ascentsoftware.github.io/quincunx/reference/ppm_to_pgp.md)
+  : Map PPM identifiers to PGP identifiers
+- [`ppm_to_pss()`](https://ascentsoftware.github.io/quincunx/reference/ppm_to_pss.md)
+  : Map PPM identifiers to PSS identifiers
+
+## Easily navigate web resources
+
+Functions that allow you to quickly browse linked information.
+
+- [`open_in_pgs_catalog()`](https://ascentsoftware.github.io/quincunx/reference/open_in_pgs_catalog.md)
+  : Browse PGS Catalog entities from the PGS Catalog Web Graphical User
+  Interface
+- [`open_in_pubmed()`](https://ascentsoftware.github.io/quincunx/reference/open_in_pubmed.md)
+  : Browse PubMed from PubMed identifiers.
+- [`open_in_dbsnp()`](https://ascentsoftware.github.io/quincunx/reference/open_in_dbsnp.md)
+  : Browse dbSNP from SNP identifiers.
+
+## Export to xlsx
+
+Exporting scores, publications, performance_metrics, sample_set, traits,
+cohorts, trait_categories and releases to xlsx.
+
+- [`write_xlsx()`](https://ascentsoftware.github.io/quincunx/reference/write_xlsx.md)
+  : Export a PGS Catalog object to xlsx
+
+## Miscellaneous
+
+Other functions.
+
+- [`clear_cache()`](https://ascentsoftware.github.io/quincunx/reference/clear_cache.md)
+  : Clear quincunx cache of memoised functions
+
+## Datasets
+
+Datasets shipped with quincunx
+
+- [`stages`](https://ascentsoftware.github.io/quincunx/reference/stages.md)
+  : Study stages
+- [`ancestry_categories`](https://ascentsoftware.github.io/quincunx/reference/ancestry_categories.md)
+  : Ancestry categories and classes
+
+# Articles
+
+### PGS Catalog Concepts
+
+- [Identifiers](https://ascentsoftware.github.io/quincunx/articles/identifiers.md):
+- [PGS Construction Process and
+  Stages](https://ascentsoftware.github.io/quincunx/articles/pgs-construction-process.md):
+- [Cohorts, Samples and Sample
+  Sets](https://ascentsoftware.github.io/quincunx/articles/cohorts-samples-sample-sets.md):
+
+### Getting PGS Catalog Data
+
+- [Getting PGS
+  Scores](https://ascentsoftware.github.io/quincunx/articles/getting-pgs-scores.md):
+- [Getting PGS
+  Publications](https://ascentsoftware.github.io/quincunx/articles/getting-pgs-publications.md):
+- [Getting PGS Sample
+  Sets](https://ascentsoftware.github.io/quincunx/articles/getting-pgs-sample-sets.md):
+- [Getting PGS Performance
+  Metrics](https://ascentsoftware.github.io/quincunx/articles/getting-pgs-performance-metrics.md):
+- [Getting
+  Traits](https://ascentsoftware.github.io/quincunx/articles/getting-traits.md):
+- [Getting
+  Cohorts](https://ascentsoftware.github.io/quincunx/articles/getting-cohorts.md):
+- [PGS Catalog
+  Releases](https://ascentsoftware.github.io/quincunx/articles/getting-releases.md):
+- [PGS scoring
+  file](https://ascentsoftware.github.io/quincunx/articles/pgs-scoring-file.md):
+
+### Wrangling PGS Catalog Data
+
+- [PGS Catalog Entity
+  Subsetting](https://ascentsoftware.github.io/quincunx/articles/pgs-cat-ent-subsetting.md):
+
+### Case Studies
+
+- [Risk of Brugada syndrome
+  patients](https://ascentsoftware.github.io/quincunx/articles/risk-strat-brs-patients.md):
+- [Exploring PGS scores by Mavaddat et al.
+  (2018)](https://ascentsoftware.github.io/quincunx/articles/pgs-scores-mavaddat.md):
+
+### More info
+
+- [quincunx vs REST API direct
+  access](https://ascentsoftware.github.io/quincunx/articles/quincunx-s-advantages.md):
+- [Contributing to quincunx
+  development](https://ascentsoftware.github.io/quincunx/articles/quincunx-development.md):
