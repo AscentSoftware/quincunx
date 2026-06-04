@@ -727,7 +727,8 @@ MONDO_0006512, or MONDO_0006513) with the function
 ``` r
 
 scores_bc <- get_scores(efo_id = unique(mavaddat2018_scores@traits[['efo_id']]))
-#>  ■■■■■■■■■■■                       33% |  ETA: 19s
+#>  ■■■■■■■■■■■                       33% |  ETA: 18s
+#>  ■■■■■■■■■■■■■■■■■■■■■             67% |  ETA:  5s
 quincunx::n(scores_bc)
 #> [1] 166
 ```
@@ -816,8 +817,8 @@ metrics using the function
 mavaddat2018_ppm <- get_performance_metrics(pgs_id = mavaddat2018_scores@scores$pgs_id)
 #>  ■■■■■■                            17% |  ETA:  2m
 #>  ■■■■■■■■■■■                       33% |  ETA:  1m
-#>  ■■■■■■■■■■■■■■■■                  50% |  ETA:  1m
-#>  ■■■■■■■■■■■■■■■■■■■■■■■■■■        83% |  ETA: 12s
+#>  ■■■■■■■■■■■■■■■■                  50% |  ETA: 49s
+#>  ■■■■■■■■■■■■■■■■■■■■■■■■■■        83% |  ETA: 10s
 ```
 
 The output is an S4 object with 9 tables:

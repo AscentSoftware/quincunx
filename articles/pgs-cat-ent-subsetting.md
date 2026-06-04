@@ -41,8 +41,8 @@ objects, say, the first 10 PGSs in the catalog:
 
 pgs_ids <- sprintf('PGS%06d', 1:10)
 my_scores <- get_scores(pgs_ids)
-#>  ■■■■■■■■■■                        30% |  ETA:  8s
-#>  ■■■■■■■■■■■■■■■■                  50% |  ETA:  6s
+#>  ■■■■■■■■■■                        30% |  ETA:  7s
+#>  ■■■■■■■■■■■■■■■■                  50% |  ETA:  5s
 #>  ■■■■■■■■■■■■■■■■■■■■■■■■■         80% |  ETA:  2s
 ```
 
