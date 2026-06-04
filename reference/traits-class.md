@@ -14,12 +14,12 @@ All tables have the column `efo_id` as primary key.
 
   efo_id
 
-  :   An [EFO](https://www.ebi.ac.uk/efo/) identifier.
+  :   An [EFO](https://www.ebi.ac.uk/ols4/ontologies/efo/) identifier.
 
   parent_efo_id
 
-  :   An [EFO](https://www.ebi.ac.uk/efo/) identifier of the parent
-      trait.
+  :   An [EFO](https://www.ebi.ac.uk/ols4/ontologies/efo/) identifier of
+      the parent trait.
 
   is_child
 
@@ -43,12 +43,12 @@ All tables have the column `efo_id` as primary key.
 
   efo_id
 
-  :   An [EFO](https://www.ebi.ac.uk/efo/) identifier.
+  :   An [EFO](https://www.ebi.ac.uk/ols4/ontologies/efo/) identifier.
 
   parent_efo_id
 
-  :   An [EFO](https://www.ebi.ac.uk/efo/) identifier of the parent
-      trait.
+  :   An [EFO](https://www.ebi.ac.uk/ols4/ontologies/efo/) identifier of
+      the parent trait.
 
   is_child
 
@@ -65,12 +65,12 @@ All tables have the column `efo_id` as primary key.
 
   efo_id
 
-  :   An [EFO](https://www.ebi.ac.uk/efo/) identifier.
+  :   An [EFO](https://www.ebi.ac.uk/ols4/ontologies/efo/) identifier.
 
   parent_efo_id
 
-  :   An [EFO](https://www.ebi.ac.uk/efo/) identifier of the parent
-      trait.
+  :   An [EFO](https://www.ebi.ac.uk/ols4/ontologies/efo/) identifier of
+      the parent trait.
 
   is_child
 
@@ -86,12 +86,12 @@ All tables have the column `efo_id` as primary key.
 
   efo_id
 
-  :   An [EFO](https://www.ebi.ac.uk/efo/) identifier.
+  :   An [EFO](https://www.ebi.ac.uk/ols4/ontologies/efo/) identifier.
 
   parent_efo_id
 
-  :   An [EFO](https://www.ebi.ac.uk/efo/) identifier of the parent
-      trait.
+  :   An [EFO](https://www.ebi.ac.uk/ols4/ontologies/efo/) identifier of
+      the parent trait.
 
   is_child
 
@@ -107,12 +107,12 @@ All tables have the column `efo_id` as primary key.
 
   efo_id
 
-  :   An [EFO](https://www.ebi.ac.uk/efo/) identifier.
+  :   An [EFO](https://www.ebi.ac.uk/ols4/ontologies/efo/) identifier.
 
   parent_efo_id
 
-  :   An [EFO](https://www.ebi.ac.uk/efo/) identifier of the parent
-      trait.
+  :   An [EFO](https://www.ebi.ac.uk/ols4/ontologies/efo/) identifier of
+      the parent trait.
 
   is_child
 
@@ -129,12 +129,12 @@ All tables have the column `efo_id` as primary key.
 
   efo_id
 
-  :   An [EFO](https://www.ebi.ac.uk/efo/) identifier.
+  :   An [EFO](https://www.ebi.ac.uk/ols4/ontologies/efo/) identifier.
 
   parent_efo_id
 
-  :   An [EFO](https://www.ebi.ac.uk/efo/) identifier of the parent
-      trait.
+  :   An [EFO](https://www.ebi.ac.uk/ols4/ontologies/efo/) identifier of
+      the parent trait.
 
   is_child
 

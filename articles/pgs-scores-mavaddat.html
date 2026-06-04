@@ -722,19 +722,19 @@ scores indicate “breast cancer” or one of its subtypes (column
 <p>Compared to the author-reported trait (column
 <code>reported_trait</code> from table <code>scores</code>), the trait
 description in this table follows the controlled vocabulary of an
-ontology, i.e., the <a href="https://www.ebi.ac.uk/efo/" class="external-link">Experimental
-Factor Ontology (EFO)</a>. This way, traits are described objectively.
-This is very useful for comparing trait data among different studies
-where different reported trait descriptions might have been used. For
-example, if you want now to know what other polygenic scores may be
-deposited in the PGS Catalog that also study breast cancer — namely,
-breast carcinoma, estrogen-receptor positive breast cancer, or
+ontology, i.e., the <a href="https://www.ebi.ac.uk/ols4/ontologies/efo/" class="external-link">Experimental Factor
+Ontology (EFO)</a>. This way, traits are described objectively. This is
+very useful for comparing trait data among different studies where
+different reported trait descriptions might have been used. For example,
+if you want now to know what other polygenic scores may be deposited in
+the PGS Catalog that also study breast cancer — namely, breast
+carcinoma, estrogen-receptor positive breast cancer, or
 estrogen-receptor negative breast cancer — then you could use their
 respective EFO identifiers (MONDO_0004989, MONDO_0006512, or
 MONDO_0006513) with the function <code><a href="../reference/get_scores.html">get_scores()</a></code>:</p>
 <div class="sourceCode" id="cb27"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">scores_bc</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/get_scores.html">get_scores</a></span><span class="op">(</span>efo_id <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/unique.html" class="external-link">unique</a></span><span class="op">(</span><span class="va">mavaddat2018_scores</span><span class="op">@</span><span class="va">traits</span><span class="op">[[</span><span class="st">'efo_id'</span><span class="op">]</span><span class="op">]</span><span class="op">)</span><span class="op">)</span></span>
-<span><span class="co">#&gt;  <span style="color: #00BB00;">■■■■■■■■■■■                     </span>  33% |  ETA: 18s</span></span>
+<span><span class="co">#&gt;  <span style="color: #00BB00;">■■■■■■■■■■■                     </span>  33% |  ETA: 16s</span></span>
 <span><span class="co">#&gt;  <span style="color: #00BB00;">■■■■■■■■■■■■■■■■■■■■■           </span>  67% |  ETA:  5s</span></span>
 <span><span class="fu">quincunx</span><span class="fu">::</span><span class="fu"><a href="../reference/n.html">n</a></span><span class="op">(</span><span class="va">scores_bc</span><span class="op">)</span></span>
 <span><span class="co">#&gt; [1] 166</span></span></code></pre></div>
@@ -810,8 +810,8 @@ performance metrics using the function
 <code class="sourceCode R"><span><span class="va">mavaddat2018_ppm</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/get_performance_metrics.html">get_performance_metrics</a></span><span class="op">(</span>pgs_id <span class="op">=</span> <span class="va">mavaddat2018_scores</span><span class="op">@</span><span class="va">scores</span><span class="op">$</span><span class="va">pgs_id</span><span class="op">)</span></span>
 <span><span class="co">#&gt;  <span style="color: #00BB00;">■■■■■■                          </span>  17% |  ETA:  2m</span></span>
 <span><span class="co">#&gt;  <span style="color: #00BB00;">■■■■■■■■■■■                     </span>  33% |  ETA:  1m</span></span>
-<span><span class="co">#&gt;  <span style="color: #00BB00;">■■■■■■■■■■■■■■■■                </span>  50% |  ETA: 49s</span></span>
-<span><span class="co">#&gt;  <span style="color: #00BB00;">■■■■■■■■■■■■■■■■■■■■■■■■■■      </span>  83% |  ETA: 10s</span></span></code></pre></div>
+<span><span class="co">#&gt;  <span style="color: #00BB00;">■■■■■■■■■■■■■■■■                </span>  50% |  ETA: 50s</span></span>
+<span><span class="co">#&gt;  <span style="color: #00BB00;">■■■■■■■■■■■■■■■■■■■■■■■■■■      </span>  83% |  ETA: 11s</span></span></code></pre></div>
 <p>The output is an S4 object with 9 tables:</p>
 <ul>
 <li>performance_metrics, publications, sample_sets, samples,

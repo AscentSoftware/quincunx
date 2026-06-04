@@ -21,7 +21,7 @@ other special meaning outside the tables they appear (`sample_id`,
 | `pgp_id` | Polygenic Publication ID | PGP | global | [PGS Catalog](https://www.pgscatalog.org/) |
 | `pss_id` | PGS Catalog Sample Set ID | PSS | global | [PGS Catalog](https://www.pgscatalog.org/) |
 | `ppm_id` | PGS Performance Metric ID | PPM | global | [PGS Catalog](https://www.pgscatalog.org/) |
-| `efo_id`, `parent_efo_id` | Experimental Factor Ontology ID | EFO | global | [Experimental Factor Ontology](https://www.ebi.ac.uk/efo/) |
+| `efo_id`, `parent_efo_id` | Experimental Factor Ontology ID | EFO | global | [Experimental Factor Ontology](https://www.ebi.ac.uk/ols4/ontologies/efo/) |
 | `pubmed_id` | PubMed ID | PMID | global | [PubMed.gov](https://pubmed.ncbi.nlm.nih.gov/) |
 | `study_id` | GWAS Catalog Study ID | GCST | global | [GWAS Catalog](https://www.ebi.ac.uk/gwas/) |
 | `rsID` | Reference SNP Cluster ID | rsID | global | [dbSNP](https://www.ncbi.nlm.nih.gov/snp/docs/RefSNP_about/) |

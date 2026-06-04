@@ -312,7 +312,8 @@ of identifiers (e.g. PGSes 42 thru 46):
 ``` r
 
 ppm <- get_performance_metrics(pgs_id = sprintf("PGS%06d", 42:46))
-#>  ■■■■■■■■■■■■■■■■■■■               60% |  ETA:  2s
+#>  ■■■■■■■■■■■■■■■■■■■               60% |  ETA:  3s
+#>  ■■■■■■■■■■■■■■■■■■■■■■■■■         80% |  ETA:  2s
 print(ppm@performance_metrics, n = Inf)
 #> # A tibble: 28 × 5
 #>    ppm_id    pgs_id    reported_trait                        covariates comments

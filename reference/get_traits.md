@@ -27,7 +27,8 @@ get_traits(
 
 - efo_id:
 
-  A character vector of [EFO](https://www.ebi.ac.uk/efo/) identifiers.
+  A character vector of
+  [EFO](https://www.ebi.ac.uk/ols4/ontologies/efo/) identifiers.
 
 - trait_term:
 

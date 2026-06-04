@@ -713,21 +713,21 @@ mavaddat2018_scores@traits[c('pgs_id', 'efo_id', 'trait')]
 Compared to the author-reported trait (column `reported_trait` from
 table `scores`), the trait description in this table follows the
 controlled vocabulary of an ontology, i.e., the [Experimental Factor
-Ontology (EFO)](https://www.ebi.ac.uk/efo/). This way, traits are
-described objectively. This is very useful for comparing trait data
-among different studies where different reported trait descriptions
-might have been used. For example, if you want now to know what other
-polygenic scores may be deposited in the PGS Catalog that also study
-breast cancer — namely, breast carcinoma, estrogen-receptor positive
-breast cancer, or estrogen-receptor negative breast cancer — then you
-could use their respective EFO identifiers (MONDO_0004989,
+Ontology (EFO)](https://www.ebi.ac.uk/ols4/ontologies/efo/). This way,
+traits are described objectively. This is very useful for comparing
+trait data among different studies where different reported trait
+descriptions might have been used. For example, if you want now to know
+what other polygenic scores may be deposited in the PGS Catalog that
+also study breast cancer — namely, breast carcinoma, estrogen-receptor
+positive breast cancer, or estrogen-receptor negative breast cancer —
+then you could use their respective EFO identifiers (MONDO_0004989,
 MONDO_0006512, or MONDO_0006513) with the function
 [`get_scores()`](https://ascentsoftware.github.io/quincunx/reference/get_scores.md):
 
 ``` r
 
 scores_bc <- get_scores(efo_id = unique(mavaddat2018_scores@traits[['efo_id']]))
-#>  ■■■■■■■■■■■                       33% |  ETA: 18s
+#>  ■■■■■■■■■■■                       33% |  ETA: 16s
 #>  ■■■■■■■■■■■■■■■■■■■■■             67% |  ETA:  5s
 quincunx::n(scores_bc)
 #> [1] 166
@@ -817,8 +817,8 @@ metrics using the function
 mavaddat2018_ppm <- get_performance_metrics(pgs_id = mavaddat2018_scores@scores$pgs_id)
 #>  ■■■■■■                            17% |  ETA:  2m
 #>  ■■■■■■■■■■■                       33% |  ETA:  1m
-#>  ■■■■■■■■■■■■■■■■                  50% |  ETA: 49s
-#>  ■■■■■■■■■■■■■■■■■■■■■■■■■■        83% |  ETA: 10s
+#>  ■■■■■■■■■■■■■■■■                  50% |  ETA: 50s
+#>  ■■■■■■■■■■■■■■■■■■■■■■■■■■        83% |  ETA: 11s
 ```
 
 The output is an S4 object with 9 tables:

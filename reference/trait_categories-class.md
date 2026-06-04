@@ -25,7 +25,7 @@ Each score is an observation (row) in the `trait_categories` table
 
   efo_id
 
-  :   An [EFO](https://www.ebi.ac.uk/efo/) identifier.
+  :   An [EFO](https://www.ebi.ac.uk/ols4/ontologies/efo/) identifier.
 
   trait
 
