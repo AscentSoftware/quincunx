@@ -1,3 +1,8 @@
+# quincunx v0.2.0
+
+* Resubmission after archival due to <https://github.com/colearendt/tidyjson/pull/152>.
+* Maintainer affiliation changed to include Acuity Analytics.
+
 # quincunx v0.1.10
 
 * Removed dependency on package concatenate as it is in risk of being archived.

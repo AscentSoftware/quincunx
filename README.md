@@ -1,13 +1,13 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# quincunx <img src='man/figures/logo.svg' align="right" height="139" />
+# quincunx <a href="https://rmagno.eu/quincunx"><img src="man/figures/logo.svg" align="right" height="139" alt="quincunx website" /></a>
 
 <!-- badges: start -->
 
 [![CRAN
 status](https://www.r-pkg.org/badges/version/quincunx)](https://CRAN.R-project.org/package=quincunx)
-[![R-CMD-check](https://github.com/ramiromagno/quincunx/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ramiromagno/quincunx/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/ascentsoftware/quincunx/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ascentsoftware/quincunx/actions/workflows/R-CMD-check.yaml)
 [![License:
 MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/license/mit)
 [![lifecycle](https://img.shields.io/badge/lifecycle-stable-green.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
@@ -22,7 +22,8 @@ scores](https://en.wikipedia.org/wiki/Polygenic_score) and associated
 metadata describing their development and respective assessment.
 
 Browse the online documentation at
-[rmagno.eu/quincunx](https://rmagno.eu/quincunx/) to get started.
+[ascentsoftware.github.io/quincunx](https://ascentsoftware.github.io/quincunx)
+to get started.
 
 ## Installation
 
@@ -37,12 +38,12 @@ You can instead install the development version with:
 
 ``` r
 # install.packages("pak")
-pak::pak("ramiromagno/quincunx")
+pak::pak("ascentsoftware/quincunx")
 ```
 
 ## Cheatsheet
 
-<a href="https://github.com/ramiromagno/cheatsheets/blob/master/quincunx/quincunx_cheatsheet.pdf"><img src="https://raw.githubusercontent.com/ramiromagno/cheatsheets/master/quincunx/quincunx_cheatsheet.png" width="615" height="225"/></a>
+<a href="https://github.com/ascentsoftware/cheatsheets/blob/master/quincunx/quincunx_cheatsheet.pdf"><img src="https://raw.githubusercontent.com/ascentsoftware/cheatsheets/master/quincunx/quincunx_cheatsheet.png" width="615" height="225"/></a>
 
 ## Citing this work
 
@@ -117,8 +118,3 @@ Theorem](https://en.wikipedia.org/wiki/Central_limit_theorem), which in
 turn is a key concept of genetics, namely, [Fisher’s infinitesimal
 model](https://doi.org/10.1016/j.tpb.2017.09.003)… which leads us to
 Polygenic Scores, the key concept of the PGS Catalog.
-
-The bird in the hex sticker is a *Porphyrio porphyrio*, an emblematic
-species native to the Ria Formosa Natural Park, which is a wildlife
-reserve surrounding the University of Algarve, where the authors are
-affiliated.
