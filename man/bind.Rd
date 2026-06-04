@@ -7,9 +7,9 @@
 bind(x, ...)
 }
 \arguments{
-\item{x}{An object of either class \linkS4class{scores}, \linkS4class{publications},
-\linkS4class{traits}, \linkS4class{performance_metrics}, \linkS4class{sample_sets},
-\linkS4class{cohorts} or \linkS4class{trait_categories}.}
+\item{x}{An object of either class \link[=scores-class]{scores}, \link[=publications-class]{publications},
+\link[=traits-class]{traits}, \link[=performance_metrics-class]{performance_metrics}, \link[=sample_sets-class]{sample_sets},
+\link[=cohorts-class]{cohorts} or \link[=trait_categories-class]{trait_categories}.}
 
 \item{...}{Objects of the same class as \code{x}.}
 }
