@@ -98,7 +98,7 @@ get_score_by_trait_id <- function(efo_id, limit = 20L, verbose = FALSE, warnings
 #'
 #' @param pgs_id A \code{character} vector of PGS Catalog score accession
 #'   identifiers.
-#' @param efo_id A character vector of \href{https://www.ebi.ac.uk/efo/}{EFO}
+#' @param efo_id A character vector of \href{https://www.ebi.ac.uk/ols4/ontologies/efo/}{EFO}
 #'   identifiers.
 #' @param pubmed_id An \code{integer} vector of
 #'   \href{https://en.wikipedia.org/wiki/PubMed}{PubMed} identifiers.

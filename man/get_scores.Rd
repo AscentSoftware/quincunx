@@ -19,7 +19,7 @@ get_scores(
 \item{pgs_id}{A \code{character} vector of PGS Catalog score accession
 identifiers.}
 
-\item{efo_id}{A character vector of \href{https://www.ebi.ac.uk/efo/}{EFO}
+\item{efo_id}{A character vector of \href{https://www.ebi.ac.uk/ols4/ontologies/efo/}{EFO}
 identifiers.}
 
 \item{pubmed_id}{An \code{integer} vector of

@@ -30,7 +30,7 @@ Score (PGS) Catalog](https://www.pgscatalog.org/), an open resource for
 metadata describing their development and respective assessment.
 
 Browse the online documentation at
-[ascentsoftware.github.io/quincunx](https://ascentsoftware.github.io/quincunx) to get started.
+[ascentsoftware.github.io/quincunx](https://ascentsoftware.github.io/quincunx/) to get started.
 
 ## Installation
 

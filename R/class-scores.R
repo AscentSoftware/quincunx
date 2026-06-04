@@ -120,7 +120,7 @@ setOldClass(c("tbl_df", "tbl", "data.frame"))
 #'   by the combination of the columns \code{pgs_id} and \code{efo_id}. Columns:
 #' \describe{
 #' \item{pgs_id}{Polygenic Score (PGS) identifier.}
-#' \item{efo_id}{An \href{https://www.ebi.ac.uk/efo/}{EFO} identifier.}
+#' \item{efo_id}{An \href{https://www.ebi.ac.uk/ols4/ontologies/efo}{EFO} identifier.}
 #' \item{trait}{Trait name.}
 #' \item{description}{Detailed description of the trait from EFO.}
 #' \item{url}{External link to the EFO entry.}

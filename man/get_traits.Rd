@@ -17,7 +17,7 @@ get_traits(
 )
 }
 \arguments{
-\item{efo_id}{A character vector of \href{https://www.ebi.ac.uk/efo/}{EFO}
+\item{efo_id}{A character vector of \href{https://www.ebi.ac.uk/ols4/ontologies/efo/}{EFO}
 identifiers.}
 
 \item{trait_term}{A character vector of terms to be matched against trait

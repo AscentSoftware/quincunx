@@ -20,7 +20,7 @@ is an observation (row) in the \code{trait_categories} table (first table).
 \item{\code{traits}}{A table of associated traits. Columns:
 \describe{
 \item{trait_category}{Trait category name.}
-\item{efo_id}{An \href{https://www.ebi.ac.uk/efo/}{EFO} identifier.}
+\item{efo_id}{An \href{https://www.ebi.ac.uk/ols4/ontologies/efo/}{EFO} identifier.}
 \item{trait}{Trait name.}
 \item{description}{Detailed description of the trait from EFO.}
 \item{url}{External link to the EFO entry.}

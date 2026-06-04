@@ -111,7 +111,7 @@ get_trait_by_trait_term <-
 #' Please note that all search criteria are vectorised, thus allowing for batch
 #' mode search.
 #'
-#' @param efo_id A character vector of \href{https://www.ebi.ac.uk/efo/}{EFO}
+#' @param efo_id A character vector of \href{https://www.ebi.ac.uk/ols4/ontologies/efo/}{EFO}
 #'   identifiers.
 #' @param trait_term A character vector of terms to be matched against trait
 #'   identifiers (\code{efo_id}), trait descriptions, synonyms thereof,

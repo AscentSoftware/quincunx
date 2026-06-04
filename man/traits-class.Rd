@@ -16,8 +16,8 @@ the \code{traits} table --- main table. All tables have the column
 \describe{
 \item{\code{traits}}{A table of traits. Columns:
 \describe{
-\item{efo_id}{An \href{https://www.ebi.ac.uk/efo/}{EFO} identifier.}
-\item{parent_efo_id}{An \href{https://www.ebi.ac.uk/efo/}{EFO} identifier of
+\item{efo_id}{An \href{https://www.ebi.ac.uk/ols4/ontologies/efo/}{EFO} identifier.}
+\item{parent_efo_id}{An \href{https://www.ebi.ac.uk/ols4/ontologies/efo/}{EFO} identifier of
 the parent trait.}
 \item{is_child}{Is this trait obtained because it is a child of other trait?}
 \item{trait}{Trait name.}
@@ -27,8 +27,8 @@ the parent trait.}
 
 \item{\code{pgs_ids}}{A table of associated polygenic score identifiers. Columns:
 \describe{
-\item{efo_id}{An \href{https://www.ebi.ac.uk/efo/}{EFO} identifier.}
-\item{parent_efo_id}{An \href{https://www.ebi.ac.uk/efo/}{EFO} identifier of
+\item{efo_id}{An \href{https://www.ebi.ac.uk/ols4/ontologies/efo/}{EFO} identifier.}
+\item{parent_efo_id}{An \href{https://www.ebi.ac.uk/ols4/ontologies/efo/}{EFO} identifier of
 the parent trait.}
 \item{is_child}{Is this trait obtained because it is a child of other trait?}
 \item{pgs_id}{Polygenic Score (PGS) identifier.}
@@ -37,8 +37,8 @@ the parent trait.}
 \item{\code{child_pgs_ids}}{A table of polygenic score identifiers associated with
 the child traits. Columns:
 \describe{
-\item{efo_id}{An \href{https://www.ebi.ac.uk/efo/}{EFO} identifier.}
-\item{parent_efo_id}{An \href{https://www.ebi.ac.uk/efo/}{EFO} identifier of
+\item{efo_id}{An \href{https://www.ebi.ac.uk/ols4/ontologies/efo/}{EFO} identifier.}
+\item{parent_efo_id}{An \href{https://www.ebi.ac.uk/ols4/ontologies/efo/}{EFO} identifier of
 the parent trait.}
 \item{is_child}{Is this trait obtained because it is a child of other trait?}
 \item{child_pgs_id}{Polygenic Score (PGS) identifiers associated with child traits.}
@@ -46,8 +46,8 @@ the parent trait.}
 
 \item{\code{trait_categories}}{A table of associated trait categories. Columns:
 \describe{
-\item{efo_id}{An \href{https://www.ebi.ac.uk/efo/}{EFO} identifier.}
-\item{parent_efo_id}{An \href{https://www.ebi.ac.uk/efo/}{EFO} identifier of
+\item{efo_id}{An \href{https://www.ebi.ac.uk/ols4/ontologies/efo/}{EFO} identifier.}
+\item{parent_efo_id}{An \href{https://www.ebi.ac.uk/ols4/ontologies/efo/}{EFO} identifier of
 the parent trait.}
 \item{is_child}{Is this trait obtained because it is a child of other trait?}
 \item{trait_category}{Trait category name.}
@@ -55,8 +55,8 @@ the parent trait.}
 
 \item{\code{trait_synonyms}}{A table of associated trait synonyms. Columns:
 \describe{
-\item{efo_id}{An \href{https://www.ebi.ac.uk/efo/}{EFO} identifier.}
-\item{parent_efo_id}{An \href{https://www.ebi.ac.uk/efo/}{EFO} identifier of
+\item{efo_id}{An \href{https://www.ebi.ac.uk/ols4/ontologies/efo/}{EFO} identifier.}
+\item{parent_efo_id}{An \href{https://www.ebi.ac.uk/ols4/ontologies/efo/}{EFO} identifier of
 the parent trait.}
 \item{is_child}{Is this trait obtained because it is a child of other trait?}
 \item{trait_synonyms}{Trait synonyms.}
@@ -65,8 +65,8 @@ the parent trait.}
 \item{\code{trait_mapped_terms}}{A table of associated external references,
 identifiers or other terms. Columns:
 \describe{
-\item{efo_id}{An \href{https://www.ebi.ac.uk/efo/}{EFO} identifier.}
-\item{parent_efo_id}{An \href{https://www.ebi.ac.uk/efo/}{EFO} identifier of
+\item{efo_id}{An \href{https://www.ebi.ac.uk/ols4/ontologies/efo/}{EFO} identifier.}
+\item{parent_efo_id}{An \href{https://www.ebi.ac.uk/ols4/ontologies/efo/}{EFO} identifier of
 the parent trait.}
 \item{is_child}{Is this trait obtained because it is a child of other trait?}
 \item{trait_mapped_terms}{Trait mapped terms.}
