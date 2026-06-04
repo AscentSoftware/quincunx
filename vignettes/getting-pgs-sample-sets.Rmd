@@ -62,7 +62,7 @@ knitr::include_graphics('../man/figures/vitiligo.png')
 We start by searching for this disease in the PGS Catalog with `get_traits()`:
 
 ```{r}
-(traits_vitiligo <- get_traits(trait_term = 'Vitiligo'))
+(traits_vitiligo <- get_traits(trait_term = 'vitiligo'))
 ```
 
 The slot `pgs_ids` contains the polygenic score identifiers associated with

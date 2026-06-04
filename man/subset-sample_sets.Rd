@@ -32,7 +32,7 @@ You can subset \linkS4class{sample_sets} by identifier or by position using
 the \code{`[`} operator.
 }
 \examples{
-\dontshow{if (interactive()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
+\dontshow{if (interactive()) withAutoprint(\{ # examplesIf}
 # Get a few sample sets:
 my_pss <- get_sample_sets(sprintf('PSS\%06d', 42:48))
 

@@ -48,7 +48,7 @@ This function returns the number of entities in a PGS Catalog object. To
 avoid ambiguity with \code{dplyr::n()} use \code{quincunx::n()}.
 }
 \examples{
-\dontshow{if (interactive()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
+\dontshow{if (interactive()) withAutoprint(\{ # examplesIf}
 # Return the number of polygenic scores in a scores object:
 my_scores <- get_scores(pgs_id = c('PGS000007', 'PGS000007', 'PGS000042'))
 n(my_scores)

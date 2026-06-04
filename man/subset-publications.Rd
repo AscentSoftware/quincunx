@@ -32,7 +32,7 @@ You can subset \linkS4class{publications} by identifier or by position using
 the \code{`[`} operator.
 }
 \examples{
-\dontshow{if (interactive()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
+\dontshow{if (interactive()) withAutoprint(\{ # examplesIf}
 # Get all publications in the PGS Catalog:
 all_pub <- get_publications(interactive = FALSE, progress_bar = FALSE)
 

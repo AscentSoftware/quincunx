@@ -119,10 +119,4 @@ A very useful feature of our S4 objects is the subsetting based on indices or
 identifiers. Moreover, subsetting quincunx's objects conveniently permeates to
 all tables (slots).
 
-## Part of the hapiverse
 
-quincunx's is a sibling package of [gwasrapidd](https://github.com/ramiromagno/gwasrapidd/)---  providing access to the
-GWAS Catalog---, and incorporates the same design principles, particularly when
-it comes to the data representation and wrangling. So users working in this
-field that have already used one of the tools, will see their knowledge easily
-transferred to the other one.

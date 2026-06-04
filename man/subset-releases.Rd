@@ -35,7 +35,7 @@ You can subset \linkS4class{releases} by identifier (release date) or by
 position using the \code{`[`} operator.
 }
 \examples{
-\dontshow{if (interactive()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
+\dontshow{if (interactive()) withAutoprint(\{ # examplesIf}
 # Get details about all PGS Catalog data releases thus far:
 all_releases <- get_releases(date = 'all', progress_bar = FALSE)
 

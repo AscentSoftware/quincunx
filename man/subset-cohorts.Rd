@@ -32,7 +32,7 @@ You can subset \linkS4class{cohorts} by identifier or by position using the
 \code{`[`} operator.
 }
 \examples{
-\dontshow{if (interactive()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
+\dontshow{if (interactive()) withAutoprint(\{ # examplesIf}
 # Get a few cohorts by their symbol:
 my_cohorts <- get_cohorts(c('23andMe', 'BioImage', 'Rotterdam-SI', 'SGWAS'),
                 progress_bar = FALSE)

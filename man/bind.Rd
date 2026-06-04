@@ -22,7 +22,7 @@ Binds together PGS Catalog objects of the same class. Note that
 \code{\link[quincunx:setop]{union}} does not.
 }
 \examples{
-\dontshow{if (interactive()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
+\dontshow{if (interactive()) withAutoprint(\{ # examplesIf}
 # Get some `scores` objects:
 my_scores_1 <- get_scores(c('PGS000012', 'PGS000013'))
 my_scores_2 <- get_scores(c('PGS000013', 'PGS000014'))

@@ -36,7 +36,7 @@ of either class \linkS4class{scores}, \linkS4class{publications}, \linkS4class{t
 entities, whereas \code{\link[=bind]{bind()}} does not.
 }
 \examples{
-\dontshow{if (interactive()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
+\dontshow{if (interactive()) withAutoprint(\{ # examplesIf}
 # Get some `scores` objects:
 my_scores_1 <- get_scores(c('PGS000012', 'PGS000013'))
 my_scores_2 <- get_scores(c('PGS000013', 'PGS000014'))

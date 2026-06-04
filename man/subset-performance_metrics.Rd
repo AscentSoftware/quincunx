@@ -32,7 +32,7 @@ You can subset \linkS4class{performance_metrics} by identifier or by position
 using the \code{`[`} operator.
 }
 \examples{
-\dontshow{if (interactive()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
+\dontshow{if (interactive()) withAutoprint(\{ # examplesIf}
 # Get a few performance metrics:
 my_ppm <- get_performance_metrics(sprintf('PPM\%06d', 38:42))
 

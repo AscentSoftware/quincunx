@@ -32,7 +32,7 @@ You can subset \linkS4class{trait_categories} by trait category (string) or
 by position using the \code{`[`} operator.
 }
 \examples{
-\dontshow{if (interactive()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
+\dontshow{if (interactive()) withAutoprint(\{ # examplesIf}
 # Get details about all trait categories:
 all_trait_categories <- get_trait_categories(progress_bar = FALSE)
 

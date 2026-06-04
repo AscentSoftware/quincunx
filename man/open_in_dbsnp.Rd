@@ -18,7 +18,7 @@ This function launches the web browser at dbSNP and opens a tab for each SNP
 identifier.
 }
 \examples{
-\dontshow{if (interactive()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
+\dontshow{if (interactive()) withAutoprint(\{ # examplesIf}
 open_in_dbsnp('rs56261590')
 \dontshow{\}) # examplesIf}
 }

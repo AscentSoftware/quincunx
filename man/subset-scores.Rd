@@ -32,7 +32,7 @@ You can subset \linkS4class{scores} by identifier or by position using the
 \code{`[`} operator.
 }
 \examples{
-\dontshow{if (interactive()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
+\dontshow{if (interactive()) withAutoprint(\{ # examplesIf}
 # Get a few polygenic scores:
 my_scores <- get_scores(sprintf('PGS\%06d', 10:14), progress_bar = FALSE)
 
